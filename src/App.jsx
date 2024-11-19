@@ -23,7 +23,7 @@ function App() {
   //   role: "user",
   // };
 
-  const isAuthenticated = true;
+  const isAuthenticated = false;
   const user = null;
   return (
     <>
