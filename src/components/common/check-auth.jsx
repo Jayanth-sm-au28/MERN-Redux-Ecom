@@ -17,6 +17,7 @@ const CheckAuth = ({ isAuthenticated, user, children }) => {
     (location.pathname.includes("/login") ||
       location.pathname.includes("/register"))
   ) {
+    console.log(user,"user test")
     if (user?.role === "admin") {
       return <Navigate to="/admin/dashboard" />;
     } else {
